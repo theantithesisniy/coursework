@@ -1,0 +1,108 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+html:not(:last-child), body:not(:last-child), div:not(:last-child), span:not(:last-child), object:not(:last-child), iframe:not(:last-child),
+h1:not(:last-child), h2:not(:last-child), h3:not(:last-child), h4:not(:last-child), h5:not(:last-child), h6:not(:last-child), p:not(:last-child), blockquote:not(:last-child), pre:not(:last-child),
+abbr:not(:last-child), address:not(:last-child), cite:not(:last-child), code:not(:last-child),
+del:not(:last-child), dfn:not(:last-child), em:not(:last-child), img:not(:last-child), ins:not(:last-child), kbd:not(:last-child), q:not(:last-child), samp:not(:last-child),
+small:not(:last-child), strong:not(:last-child), sub:not(:last-child), sup:not(:last-child), var:not(:last-child),
+b:not(:last-child), i:not(:last-child),
+dl:not(:last-child), dt:not(:last-child), dd:not(:last-child), ol:not(:last-child), ul:not(:last-child), li:not(:last-child),
+fieldset:not(:last-child), form:not(:last-child), label:not(:last-child), legend:not(:last-child),
+table:not(:last-child), caption:not(:last-child), tbody:not(:last-child), tfoot:not(:last-child), thead:not(:last-child), tr:not(:last-child), th:not(:last-child), td:not(:last-child),
+article:not(:last-child), aside:not(:last-child), canvas:not(:last-child), details:not(:last-child), figcaption:not(:last-child), figure:not(:last-child),
+footer:not(:last-child), header:not(:last-child), hgroup:not(:last-child), menu:not(:last-child), nav:not(:last-child), section:not(:last-child), summary:not(:last-child),
+time:not(:last-child), mark:not(:last-child), audio:not(:last-child), video:not(:last-child) {
+  margin-bottom: 0;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+/*# sourceMappingURL=reset.css.map */
